@@ -43,9 +43,6 @@ The repository is organized to separate frontend logic from backend configuratio
 │   ├── pages/         # Top-level components for each route
 │   │   └── admin/     # Components for the admin portal
 │   └── lib/           # Utility functions
-└── supabase/
-    ├── migrations/    # SQL files defining the database schema
-    └── functions/     # Serverless functions (e.g., seed-admin)
 ```
 
 ## Getting Started
