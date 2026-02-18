@@ -70,14 +70,6 @@ Follow these instructions to get a copy of the project up and running on your lo
     ```
 
 3.  **Seed the Admin User**
-    - The repository includes a Supabase Function to create a default admin user. Deploy and invoke it:
-      ```bash
-      # Deploy the function
-      supabase functions deploy seed-admin
-
-      # Invoke the function to create the admin user
-      supabase functions invoke seed-admin
-      ```
     - **Default Admin Credentials:**
         - **Email:** `admin@eduonboard.com`
         - **Password:** `Admin@123`
